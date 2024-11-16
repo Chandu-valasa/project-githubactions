@@ -25,6 +25,8 @@ jobs:
         
     - name: Display Go Version
       run: go version
+    - name: Debug Directory
+      run: pwd && ls -la
 
     - name: Build Application
       run: |
