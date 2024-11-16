@@ -31,6 +31,7 @@ jobs:
     - name: Build Application
       run: |
          ls -ltr
+         cd master
          go build -o go-web
 
     - name: Run Tests
